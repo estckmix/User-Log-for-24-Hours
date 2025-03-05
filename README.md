@@ -1,7 +1,5 @@
 # User-Log-for-24-Hours
-PowerShell script that tracks all user logins over the last 24 hours and sends a human-readable report via email
 
-PowerShell Script that emails a report of every user that has logged in over the last 24 hours.
 
 PowerShell script that tracks all user logins over the last 24 hours and sends a human-readable report via email.
 ________________________________________
