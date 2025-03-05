@@ -34,20 +34,31 @@ To run this script every 24 hours, follow these steps:
 2.	Open Task Scheduler (taskschd.msc).
 
 3.	Create a New Task: 
+
 •	Name: Daily User Login Report
+
 •	Set to Run whether user is logged on or not.
 
 4.	Set the Trigger: 
+
 •	Click New > Begin the task On a schedule.
+
 •	Set Daily and pick a time (e.g., 12:00 AM).
+
 •	Ensure Repeat every: 24 hours is selected.
 
 5.	Set the Action: 
+
 •	Click New > Action: Start a Program.
+
 •	Program/script: powershell.exe
+
 •	Arguments: 
+
 •	-ExecutionPolicy Bypass -File "C:\Scripts\LogUserActivity.ps1"
 
 6.	Save and Test: 
+
 •	Click OK, enter credentials (if needed).
+
 •	Right-click the task and Run to test it.
